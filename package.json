@@ -1,0 +1,19 @@
+{
+  "name": "node-learnjs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node-debug": "babel-node --inspect src/index",
+    "dev": "nodemon --exec npm run babel-node-debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.8.0",
+    "nodemon": "^1.18.6"
+  }
+}
